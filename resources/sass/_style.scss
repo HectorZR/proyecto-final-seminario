@@ -98,3 +98,15 @@ footer {
 .form h2{
     padding: 5px 0;
 }
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-content: space-between;
+
+    .description {
+        width: 30%;
+        padding: 0 10px;
+    }
+}
