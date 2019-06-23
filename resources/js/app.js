@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+require('bootstrap-material-design');
 
 window.Vue = require('vue');
 

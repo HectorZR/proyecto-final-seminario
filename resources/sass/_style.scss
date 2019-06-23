@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-img {
+    background-image: url('../img/hamburguer.jpeg');
+    height: 45vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -20vw;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    padding-left: 30px !important;
+    display: flex;
+}
+.links a, .links i {
+    margin: 0 !important;
+    padding: 5px 10px;
+}
+
+.links .first {
+    border-right: 1px solid white;
+}
+.links .third {
+    border-left: 1px solid white;
+}
