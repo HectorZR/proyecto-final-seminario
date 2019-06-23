@@ -119,6 +119,20 @@ footer {
   padding: 5px 0;
 }
 
+.description-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  width: 100%;
+  align-content: space-between;
+}
+
+.description-container .description {
+  width: 30%;
+  padding: 0 10px;
+}
+
 /*!
  * Font Awesome Free 5.9.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
