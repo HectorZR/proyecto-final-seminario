@@ -8,5 +8,6 @@
 
 @section('content')
 <div>
-el contenido aqui</div>
+el contenido aqui
+</div>
 @endsection
