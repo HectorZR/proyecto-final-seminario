@@ -2,7 +2,7 @@
 
 @section('header')
 <div class="header-img">
-|
+ &nbsp
 </div>
 @endsection
 

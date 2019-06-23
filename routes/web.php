@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-Route::get('/gallery', function () {
-    return view('gallery');
-})->name('gallery');
+Route::get('/gallery', 'MealController@index')->name('gallery');
 
 Route::get('/login', function () {
     return view('login');
