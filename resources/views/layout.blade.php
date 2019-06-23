@@ -15,7 +15,7 @@
     <header>
         <div class="links">
             <a href="{{route('index')}}" class="first">Inicio</a>
-            <a href="{{route('view')}}">Ver</a>
+            <a href="{{route('gallery')}}">Ver</a>
             <a href="{{route('login')}}" class="third">Iniciar sesion/Registrarse</a>
         </div>
         <div class="links">
