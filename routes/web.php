@@ -15,13 +15,16 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-Route::get('/view', function () {
-    return view('index');
-})->name('view');
+Route::get('/gallery', function () {
+    return view('gallery');
+})->name('gallery');
 
 Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-Route::post('login', 'Auth/LoginController');
+Route::group(['prefix' => 'auth'], function () {
 
+    Auth::routes();
+
+});

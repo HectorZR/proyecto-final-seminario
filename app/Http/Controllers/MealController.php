@@ -14,7 +14,7 @@ class MealController extends Controller
      */
     public function index()
     {
-        //
+        $meal = Meal::paginate(20);
     }
 
     /**
