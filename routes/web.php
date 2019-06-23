@@ -18,6 +18,10 @@ Route::get('/', function () {
 Route::get('/view', function () {
     return view('index');
 })->name('view');
+
 Route::get('/login', function () {
-    return view('index');
+    return view('login');
 })->name('login');
+
+Route::post('login', 'Auth/LoginController');
+
