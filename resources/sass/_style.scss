@@ -142,3 +142,20 @@ footer {
         padding: 0 10px;
     }
 }
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .main-tittle {
+            font-size: 100px;
+            font-weight: 800;
+            color: white;
+        }
+    }
+}
