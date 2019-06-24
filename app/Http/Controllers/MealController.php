@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Meal;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\View;
 
 class MealController extends Controller
 {
@@ -14,7 +15,8 @@ class MealController extends Controller
      */
     public function index()
     {
-        $meal = Meal::paginate(20);
+        $meals = Meal::paginate(9);
+        return View::make('gallery')->with('meals', $meals);
     }
 
     /**
