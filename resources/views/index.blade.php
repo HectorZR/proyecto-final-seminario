@@ -2,7 +2,9 @@
 
 @section('header')
 <div class="header-img">
- &nbsp
+  <div class="title">
+    <p class="main-tittle">DelyFood</p>
+  </div>
 </div>
 @endsection
 
