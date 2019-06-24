@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Proyecto</title>
+    <title>DelyFood</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
 </head>
 
 <body>
@@ -19,8 +20,9 @@
             <a href="{{route('login')}}" class="third">Iniciar sesion/Registrarse</a>
         </div>
         <div class="links">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-facebook-square"></i>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
         </div>
     </header>
         <main>
